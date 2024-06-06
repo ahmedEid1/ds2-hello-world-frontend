@@ -11,13 +11,18 @@
     "keycloak-js": "^24.0.4"
   },
   "devDependencies": {
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/jest-dom": "^5.16.5"
+    "jest": "^27.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --coverage",
+    "test": "jest --coverage",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
