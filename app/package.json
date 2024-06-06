@@ -10,6 +10,10 @@
     "serve": "^14.2.0",
     "keycloak-js": "^24.0.4"
   },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
