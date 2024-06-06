@@ -26,3 +26,4 @@ jobs:
           test-script: yarn test
           package-manager: yarn
           output: comment, report-markdown
+          working-directory: ./app
